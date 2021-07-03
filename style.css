@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient( to bottom, #68EACC 0% ,#497BE8);
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.wrapper{
+    background: white;
+    padding: 25px;
+    border-radius: 5px;
+    min-width: 50px
+}
+header{
+    font-size: 2rem ;
+    font-family: Lobster;
+    letter-spacing: 2px;
+    font-weight: 600;
+
+}
+.wrapper .inputField{
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-around;
+    font-family: Merienda One ;}
+
+input{
+    text-transform: capitalize;
+   
+  height: 2rem;
+  width: 18rem;
+   border-radius: 15px;
+   padding-left: 15px;
+   color: #000;
+   outline: none;
+}
+
+.inputField button{
+    border-radius: 20px;
+    width: 35px;
+    height:35px;
+    outline: none;
+    background: crimson;
+    color: white;
+    border: none;
+    cursor: pointer;
+    opacity: 0.6;
+    pointer-events: none;
+  
+}
+.inputField button.active{
+    opacity: 1;
+    pointer-events: auto;
+}
+.todolist li{
+    text-transform: capitalize;
+    font-family:Aladin;
+    list-style: none;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 15px;
+    margin-bottom: 8px;
+    background-color: rgb(117, 209, 209);
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+    cursor: default
+    ;
+
+
+}
+.todolist{
+    max-height: 250px;
+    overflow-y: auto;
+}
+.todolist li span{
+    position: absolute;
+    right: 0px;
+color: black;
+background: teal;
+text-align: center;
+width: 45px;
+cursor: pointer;
+right: -45px;
+transition: all 0.2s ease;
+
+}
+.todolist li span:hover{
+  color: rgb(230, 224, 224);
+    right: 0px;
+    
+}
+.wrapper .footer{
+    display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+   width: 100%;
+  
+  
+}
+.footer button{
+    color: black;
+background:crimson;
+text-align: center;
+width: 65px;
+height: 40px;
+cursor: pointer;
+border: none;
+border-radius: 10px;
+
+}
+.footer button:hover{
+    
+    color: rgb(218, 209, 210);
+}
+
+
+
+
