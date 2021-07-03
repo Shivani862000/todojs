@@ -92,13 +92,13 @@ background: teal;
 text-align: center;
 width: 45px;
 cursor: pointer;
-right: -45px;
+
 transition: all 0.2s ease;
 
 }
 .todolist li span:hover{
   color: rgb(230, 224, 224);
-    right: 0px;
+  
     
 }
 .wrapper .footer{
